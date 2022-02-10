@@ -3,14 +3,6 @@ H
 config/extent-config.xml,d/2/d2e06f0f8f745982f5c39deee76f7b907e998b25
 d
 4src/main/java/com/hanrideb/report/AllureManager.java,0/b/0b18ee94795662035f82ad58773f1e51d97cc9d1
-k
-;src/main/java/com/hanrideb/config/ConfigurationManager.java,9/8/981dae7c2557af53a646676c54e89a86a4a2e7b5
-d
-4src/main/java/com/hanrideb/config/Configuration.java,0/5/0519e88cde5ed8c34d6e793dd0bd50e627fa3d47
-e
-5src/main/java/com/hanrideb/driver/BrowserFactory.java,b/f/bfe860961ebb4c794039fc66deae43910577c8cd
-d
-4src/main/java/com/hanrideb/driver/DriverManager.java,7/7/7785919586b5164b10ceeff0164971c7d2596cc6
 d
 4src/main/java/com/hanrideb/driver/TargetFactory.java,a/5/a5e22c9d7bf56070484d3bde85d928e92010f586
 r

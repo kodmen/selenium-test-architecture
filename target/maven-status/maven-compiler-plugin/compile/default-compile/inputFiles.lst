@@ -1,0 +1,9 @@
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/config/Configuration.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/driver/TargetFactory.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/page/AbstractPageObject.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/exceptions/TargetNotValidException.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/driver/BrowserFactory.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/config/ConfigurationManager.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/report/AllureManager.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/driver/DriverManager.java
+/Users/bedir/Desktop/selenium-test-architecture/src/main/java/com/hanrideb/page/Login/LoginPage.java

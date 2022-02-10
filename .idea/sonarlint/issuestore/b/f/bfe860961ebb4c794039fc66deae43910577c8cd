@@ -1,11 +1,0 @@
-
-a
-java:S1128"DRemove this unused import 'org.openqa.selenium.safari.SafariDriver'.(®úòî8ëŒêÍì/
-O
-java:S1874"4Remove this use of "ChromeDriver"; it is deprecated.(ˆŸÒâşÿÿÿÿ
-E
-java:S6212"/Declare this local variable with "var" instead.(êæÃÊ
-K
-java:S6212."/Declare this local variable with "var" instead.(“¯ŒX8ó§ëÍì/
-A
-java:S1452:"&Remove usage of generic wildcard type.(ºãñ©ÿÿÿÿÿ

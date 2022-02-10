@@ -1,0 +1,16 @@
+<!--<suite name="Multi browser test" allow-return-values="true" parallel="methods" data-provider-thread-count="9">-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Multi browser test" verbose="1" parallel="tests" thread-count="9">
+
+    <listeners>
+        <listener class-name="com.hanrideb.Base.Listener.TestListener"/>
+    </listeners>
+
+    <test name="Chrome execution">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.hanrideb.Runner.Runner"/>
+        </classes>
+    </test>
+
+</suite>

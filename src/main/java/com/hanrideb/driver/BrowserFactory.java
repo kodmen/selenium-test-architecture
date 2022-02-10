@@ -13,6 +13,7 @@ import org.openqa.selenium.remote.AbstractDriverOptions;
 import org.openqa.selenium.safari.SafariDriver;
 
 import static com.hanrideb.config.ConfigurationManager.configuration;
+import static com.hanrideb.config.ConfigurationManager.getHeadless;
 
 public enum BrowserFactory {
     CHROME{
@@ -29,7 +30,7 @@ public enum BrowserFactory {
             chromeOptions.addArguments(START_MAXIMIZED);
             chromeOptions.addArguments("--disable-infobars");
             chromeOptions.addArguments("--bisable-notifications");
-            chromeOptions.setHeadless(configuration().headless());
+            chromeOptions.setHeadless(getHeadless());
             return chromeOptions;
         }
     },
@@ -45,7 +46,7 @@ public enum BrowserFactory {
         public FirefoxOptions getOptions() {
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             firefoxOptions.addArguments(START_MAXIMIZED);
-            firefoxOptions.setHeadless(configuration().headless());
+            firefoxOptions.setHeadless(getHeadless());
 
             return firefoxOptions;
         }
